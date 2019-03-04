@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <title>tabulky</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  </head>
+  <!--css-->
+  <style>
+header{
+    text-align: center;
+    background-color: red;
+}
+table{
+   text-align: center;
+}
+  </style>
+  <header>
+  <h1>Tabulky</h1>
+  <h2>Pravidelná tabulka</h2>
+  </header>
+  <body>
+      <!-- šírka tabulky-->
+      <section id="pravidelná" class="container">
+          <!--styl tabulky-->
+          <!--table>tr>(th)*4 lehčí (zkratka)-->
+      <table class="table table-bordered table-striped">
+          <thead>
+              <tr>
+                  <th>Záhlaví1</th>
+                  <th>Záhlaví2</th>
+                  <th>Záhlaví3</th>
+                  <th>Záhlaví4</th>
+                </thead>
+                  <tbody>
+                      <tr>
+                          <td>Lorem.</td>
+                          <td>Deleniti.</td>
+                          <td>Rem!</td>
+                          <td>Placeat!</td>
+                      </tr>
+                    
+                      <tr>
+                          <td>Alias.</td>
+                          <td>Velit?</td>
+                          <td>Possimus.</td>
+                          <td>Iusto.</td>
+                      </tr>
+                      <tr>
+                          <td>Eveniet.</td>
+                          <td>Quisquam.</td>
+                          <td>Incidunt.</td>
+                          <td>Atque?</td>
+                      </tr>
+                      <tr>
+                          <td>Est.</td>
+                          <td>Pariatur.</td>
+                          <td>Illum.</td>
+                          <td>Rerum.</td>
+                      </tr>
+                  </tbody>
+              </tr>
+          
+      </table>
+      </section>
+      <section id="nepravidelná" class="container">
+<table class="table table-bordered">
+    <thead class="bg-info">
+        <tr>
+            <th rowspan="2">Třídy</th>
+            <th colspan="2">Žáci</th>
+            <th rowspan="2">Obor</th>
+        </tr>
+        <tr>
+            <th>Dívky</th>
+            <th>Chlapci</th>
+        </tr>
+
+    </thead>
+    <tbody>
+        <tr>
+                <td>IT1</td>
+                <td>1</td>
+                <td>31</td>
+                <td>Informační technologie</td>  
+        </tr>
+        <tr>
+                <td>SV1A</td>
+                <td>0</td>
+                <td>30</td>
+                <td>Strojírenství</td>  
+        </tr>
+        <tr>
+                <td>U1</td>
+                <td>22</td>
+                <td>3</td>
+                <td>Umělecké obory</td>  
+        </tr>
+
+    </tbody>
+    <tfoot class="bg-secondary">
+        <tr>
+            <td colspan="4">SSPU Opava - 2019</td>
+        </tr>
+
+
+
+    </tfoot>
+</table>
+
+      </section>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
